@@ -1,11 +1,3 @@
-  
-def merge(a, b):
-  start_index = len(b) - len(a)
-  for i in a:
-    b[start_index] = i
-    start_index += 1
-  return sorted(b)
-
 def merge(a, b):
   a_index = len(a) - 1
   b_index = len(b) - len(a) - 1
