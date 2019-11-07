@@ -21,10 +21,10 @@ class Solution(object):
             
             # if one of these rules is violated, stop moving
             
-            while l_index<=h_index and nums[l_index]<pivot:
-                l_index+=1
-            while l_index<=h_index and nums[h_index]>pivot:
-                h_index-=1
+            while l_index <= h_index and nums[l_index] < pivot:
+                l_index += 1
+            while l_index <= h_index and nums[h_index] > pivot:
+                h_index -= 1
 
             # once l_index and h_index both stop moving, swap the respective values at 
             # l_index and h_index
