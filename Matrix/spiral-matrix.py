@@ -9,7 +9,7 @@ class Solution(object):
         
         result = []
         left_index = 0
-        right_index = len(matrix[0]) -1
+        right_index = len(matrix[0]) - 1
         top_index = 0
         bottom_index = len(matrix) -1
         
